@@ -1,0 +1,125 @@
+
+/* --------------------- Global --------------------- */
+html,body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+}
+
+
+/* --------------------- Home --------------------- */
+header.carousel {
+    height: 70%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* --------------------- Repertory --------------------- */
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.portfolio-item{
+    height: 250px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+
+/* --------------------- Contact --------------------- */
+form textarea{
+    height: 200px;
+}
+
+thead{
+    background: #333;
+    color: #fff;
+}
+
+.go_top{
+  color: black!important;
+  padding: 1%;
+float: right;
+border: 1px solid grey;
+border-radius: 20%;
+}
+.go_top:hover{
+  color: white !important;
+  background-color: blue;
+  transition: 1s;
+}
+
+
+/*---------------------- Formulaire ------------------------*/
+
+form .deco{
+  text-align: center;
+  margin-left: 45%;
+}
+
+/*--------------------tableau Utilisateurs---------------------*/
+
+table{
+  text-align: center;
+  width: 100%;
+  border: 2px solid black;
+}
+
+table img{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 100px;
+  width: 100px;
+}
+
+th{
+  border: 1px solid black;
+  text-align: center;
+  background-color: red;
+}
+
+td{
+  border: 1px dotted grey;
+}
+
+/* --------------------- Footer --------------------- */
+footer {
+    margin: 50px 0;
+}
+
+
+/* --------------------- Responsive  --------------------- */
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
